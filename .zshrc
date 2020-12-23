@@ -75,16 +75,15 @@ plugins=(git
  	 colorize
 	 copydir
 	 cp
-	 battery
 	 tmux
 	 web-search
+	 extract
  	)
 
 
 source $ZSH/oh-my-zsh.sh
 
 
-RPROMPT='$(battery_pct_prompt) ...'
 
 
 # User configuration
